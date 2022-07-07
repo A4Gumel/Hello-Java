@@ -1,11 +1,17 @@
 package com.test;
 
+import java.util.Arrays;
+
+import static com.test.Swap.swap;
+
 public class Max {
     public static void main(String[] args) {
-        int[] arr = {12, 13, 14, 18, 9, 10, 5};
+        int[] arr = {12, 13, 14, 18, 9, 10};
 
-        System.out.println(max(arr));
+        reverse(arr);
+        System.out.println(Arrays.toString(arr));
         System.out.println(maxInRange(arr, 4, arr.length - 1));
+
     }
 
     static int max(int[] arr) {
@@ -35,5 +41,16 @@ public class Max {
         }
 
         return maxVal;
+    }
+
+    static void reverse(int[] arr) {
+        int start = 0;
+        int end = arr.length - 1;
+
+        while (start < end) {
+            swap(arr, start, end);
+            start++;
+            end--;
+        }
     }
 }

@@ -10,11 +10,11 @@ public class Max {
     static int max(int[] arr) {
         int maxVal = arr[0];
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i: arr) {
 
-            if (arr[i] > maxVal) {
+            if (i > maxVal) {
 
-                maxVal = arr[i];
+                maxVal = i;
             }
         }
 

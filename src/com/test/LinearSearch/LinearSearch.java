@@ -1,11 +1,12 @@
-package com.test;
+package com.test.LinearSearch;
 
 public class LinearSearch {
 
     public static void main(String[] args) {
 
         int[] nums = { 8, 5, 6, 3, 4, 9, 1};
-        int target = 99;
+        int target = 9;
+
         System.out.println(linearSearch(nums, target));
         System.out.println(linearSearch2(nums, target));
         System.out.println(linearSearch3(nums, target));

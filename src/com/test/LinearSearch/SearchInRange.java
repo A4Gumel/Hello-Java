@@ -1,4 +1,4 @@
-package com.test;
+package com.test.LinearSearch;
 
 public class SearchInRange {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class SearchInRange {
         }
 
         //run for loop
-        for (int i = start; i < end; i++) {
+        for (int i = start; i <= end; i++) {
             //check for element at every index
             int element = arr[i];
             if (element == target) {

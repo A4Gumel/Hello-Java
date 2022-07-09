@@ -10,7 +10,7 @@ public class MaxWealth {
                 {3, 5}
         };
 
-        System.out.println(findMaxWealth(accounts));
+        System.out.println(findMaxWealth2(accounts));
 
     }
 
@@ -30,6 +30,31 @@ public class MaxWealth {
             if (sum > ans) {
                 ans = sum;
             }
+        }
+
+        return ans;
+    }
+
+    static int findMaxWealth2(int[][] accounts) {
+
+        int ans = 0;
+
+        for (int[] person :
+                accounts) {
+
+            int sum = 0;
+
+            for (int amount :
+                    person) {
+
+                sum += amount;
+            }
+
+            if (sum > ans) {
+
+                ans = sum;
+            }
+
         }
 
         return ans;

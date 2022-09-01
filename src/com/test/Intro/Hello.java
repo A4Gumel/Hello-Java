@@ -1,4 +1,4 @@
-package com.test;
+package com.test.Intro;
 
 public class Hello {
     public static void main(String[] args) {

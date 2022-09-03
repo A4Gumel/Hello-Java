@@ -1,4 +1,4 @@
-package com.test.BubbleSort;
+package com.test.Sorts;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ public class BubbleSort {
 
     public static void main(String[] args) {
 
-        int[] arr = {6, 5, 4, 3, 7, 2, 1, 8, 0, };
+        int[] arr = {6, 5, 4, 3, 7, 2, 1, 8, 0, -8, -9};
         bubble(arr);
         System.out.println(Arrays.toString(arr));
 

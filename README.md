@@ -5,7 +5,12 @@ This repository is used for practice, revision, and self-reflection. However, fe
 
 Please adhere to the following standards before contributing!
 
-# Usage
+## Features
+- Binary search solutions
+- Arrays solutions
+- Bubble, Quick and Merge Sort solutions
+
+## Usage
 Many thanks for your time and effort! When making a contribution to this repository, you should first contact the 
 repository's owner to discuss the change you want to make before making it.
 
